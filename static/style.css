@@ -453,12 +453,11 @@ header .intro {
 }
 
 section, article {
-    float: left;
     color: #000;
     width: -webkit-calc(100% - 344px);
     width: -moz-calc(100% - 344px);
     width: calc(100% - 344px);
-    margin: 0 0 8px;
+    margin: 0 auto;
     padding: 8px;
     display: block;
     max-width: 984px;
@@ -471,7 +470,7 @@ section, article {
 article {
     float: none;
     clear: left;
-    margin: 0 0 16px
+    margin: 0 auto
 }
 
 section h1, section h2, article h2, aside h3 {
@@ -904,7 +903,7 @@ article table th {
 footer {
     padding: 8px;
     display: block;
-    text-align: justify;
+    text-align: center;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, .1);
     line-height: 22px
 }
