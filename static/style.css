@@ -229,11 +229,9 @@ i {
 }
 
 i[class] {
-    float: left;
+    float: inherit;
     width: 18px;
     margin: 0 8px 0 0;
-    display: block;
-    text-align: center;
     font-style: normal
 }
 
@@ -989,17 +987,17 @@ header nav a, aside nav a, .option button, .option label, .file .detail, .state 
 }
 
 body {
-    background-color: #439a00;
+    background-color: #00034f;
     background-image: url('https://cdn.base64decode.org/assets/images/pattern.svg');
     background-repeat: repeat
 }
 
 .ad_left {
-    background: #439a00
+    background: #00034f
 }
 
 main {
-    background-color: #439a00
+    background-color: #00034f
 }
 
 section a, article a {
@@ -1008,7 +1006,7 @@ section a, article a {
 
 .option button, .option .live.active {
     border: 1px solid #275900;
-    background: #275900
+    background: #00034f
 }
 
 .file .counter.active {
