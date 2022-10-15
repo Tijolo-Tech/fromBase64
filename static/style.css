@@ -462,7 +462,8 @@ section, article {
     word-wrap: break-word;
     text-align: justify;
     box-sizing: border-box;
-    background: #fff
+    background: #fff;
+    border-radius: 6.5px;
 }
 
 article {

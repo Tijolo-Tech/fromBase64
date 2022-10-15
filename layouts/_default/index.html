@@ -1,0 +1,55 @@
+{{ define "main" }}
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Base64 Decode and Encode - Online</title>
+        <link href="style.css" rel="stylesheet"/>
+      <script async="" src="decoder.js"></script>
+
+    </head>
+<body>
+  <div class="wrapper">
+    <ins class="ad_left" style="margin-top: 222px;"></ins>
+    <main>
+      <header>
+        <a class="logo" href="#"><span>BASE64</span><span>Decode your base64 strings</span></a>
+        
+        <div class="clear"></div>
+        <div class="intro"> <strong> frombase64.com</strong> is the best place to decode <strong>Base64</strong>  strings. We have a simple, user-friendly interface that makes decoding even complex strings a breeze. Plus, our tool is free to use - no registration required!</div>
+      </header>
+      <ins class="ad_top"></ins>
+      <section>
+        <h1>Decode from Base64 format</h1>
+        <label for="input">Just enter your data then hit the decode button.</label>
+        <form name="text" onsubmit="return decodeBase64(this)" id="decodeSubmitInput">
+          <textarea id="input" name="input" placeholder="Type (or paste) here..." spellcheck="false"></textarea>
+          <span class="option"><button id="submit_text" type="submit"><i class="fas fa-chevron-left"></i>DECODE<i class="fas fa-chevron-right"></i></button><label for="output">Decodes your data into the area below.</label></span>
+        </form>
+        <textarea id="output" name="output" placeholder="Result goes here..." spellcheck="false"></textarea>
+      </section>
+      </br>
+      {{with partial "about-section/about.html" .}}
+        {{.}}
+      {{end}}
+      <footer>
+        <div><i class="fas fa-copyright"></i>2022 tijolotech.com</div>
+        <div><b>This website uses cookies.</b> We use cookies to personalise content/ads and to analyse our traffic.</div>
+      </footer>
+    </main>
+    <div class="clear"></div>
+  </div>
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-74823759-10"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-74823759-10');
+    window.siteDomain = 'frombase64.com';
+    window.clientClass = 'neutral';
+    window.requestProperties = 'eyJ1c2VyQWdlbnQiOiJNb3ppbGxhXC81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXRcLzYwNS4xLjE1IChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvblwvMTYuMCBTYWZhcmlcLzYwNS4xLjE1IiwiYWNjZXB0TGFuZ3VhZ2UiOiJwdC1CUixwdDtxPTAuOSJ9';
+  </script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9034973351595080"
+          crossorigin="anonymous"></script>
+</body></html>
+{{ end }}

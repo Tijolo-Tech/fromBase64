@@ -1,0 +1,11 @@
+<section>
+    {{ with .Site.GetPage "about" "explanation"}}
+        {{ .Content }}
+        {{with partial "about-section/table.html" .}}
+            {{.}}
+        {{end}}
+        <p>
+            As this example illustrates, Base64 encoding converts 3 uncoded bytes (in this case, ASCII characters) into 4 encoded ASCII characters.
+        </p>
+    {{end}}
+</section>
