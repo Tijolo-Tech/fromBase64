@@ -462,7 +462,8 @@ section, article {
     word-wrap: break-word;
     text-align: justify;
     box-sizing: border-box;
-    background: #fff
+    background: #fff;
+    border-radius: 11px;
 }
 
 article {
@@ -1007,7 +1008,8 @@ section a, article a {
 
 .option button, .option .live.active {
     border: 1px solid #275900;
-    background: #00034f
+    background: #00034f;
+    border-radius: 11px;
 }
 
 .file .counter.active {
